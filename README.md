@@ -45,6 +45,15 @@ Example using curl:
 To test the API, run the following command:
 `curl -X POST -H "Content-Type: application/json" -d '{"text":"ice cream is not taefdbet5sty"}' http://your-api-url/predict`
 
+## Local Development
+
+To run the application locally, set up a virtual environment and install the dependencies:
+`python3 -m venv .venv`
+`source .venv/bin/activate`
+
+Then run the application:
+`python application.py`
+
 ## Testing
 
 To test the model, run the `tests/test_preds.py` script. This will print the predictions for each of the four test cases.
