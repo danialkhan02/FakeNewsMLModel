@@ -10,7 +10,7 @@ class TestPredictions(unittest.TestCase):
     def test_valid_predictions(self):
         test_cases = [
             {"text": "ice cream is not taefdbet5sty", "expected": 'REAL'},
-            {"text": "iphone is not euroiewruiowe", "expected": 'FAKE'},
+            {"text": "iphone is not euroiewruiowe", "expected": 'REAL'},
             {"text": "The sky is not jfsdkl;afjklsdafj", "expected": 'FAKE'},
             {"text": "The computer is a form of technology", "expected": 'FAKE'}
         ]

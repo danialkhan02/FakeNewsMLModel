@@ -4,7 +4,7 @@ import csv
 
 test_cases = [
     {"text": "ice cream is not taefdbet5sty"}, # true
-    {"text": "iphone is not euroiewruiowe"}, # true
+    {"text": "iphone is not euroiewruiowe"}, # false
     {"text": "The sky is not jfsdkl;afjklsdafj"}, # false
     {"text": "The computer is a form of technology"} # false
 ]
