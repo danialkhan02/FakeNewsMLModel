@@ -56,7 +56,7 @@ Then run the application:
 
 ## Testing
 
-To test the model, run the `tests/test_preds.py` script. This will print the predictions for each of the four test cases.
+To test the model, run the `python -m unittest tests.test_preds` in terminal. This will print the predictions for each of the four test cases.
 
 To test the performance of the model, run the `tests/test_performance.py` script. This will make 100 predictions for each of the four test cases and record the time it takes to make each prediction. The results are saved to a CSV file, which is then used to create a boxplot of the prediction times using the `tests/plot_performance.py` script.
 
